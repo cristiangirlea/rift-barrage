@@ -1,0 +1,6 @@
+*.apk
+*.zip
+*.keystore
+*.properties
+Thumbs.db
+.DS_Store
