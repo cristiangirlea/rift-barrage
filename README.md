@@ -6,7 +6,7 @@ A landscape space shooter: dodge, auto-fire and make every wave count. Leave Ear
 
 ![Rift Barrage: read the warning, find the gap](site/screenshots/v2-loop.webp)
 
-## Download (preview 0.2.0)
+## Download (preview 0.2.1)
 
 | Platform | File | Requirements |
 | --- | --- | --- |
@@ -20,6 +20,11 @@ Every release lists SHA-256 checksums in `SHA256SUMS.txt`.
 - **Windows:** unzip and run `RiftBarrage.exe`. SmartScreen may warn about an unrecognized app (choose *More info → Run anyway*).
 
 This is an early preview. Balance will change, and later previews may not keep your progress.
+
+## New in 0.2.1
+
+- **Region chests:** stars and missions across a region's five chapters open Silver, Gold and Platinum chests; better tiers later pay the difference.
+- **New chapter missions:** three per chapter from a new set, tracked separately on each difficulty.
 
 ## New in 0.2.0
 
