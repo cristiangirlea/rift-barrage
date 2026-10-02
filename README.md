@@ -1,10 +1,10 @@
 # Rift Barrage
 
-A landscape space shooter: dodge, auto-fire and make every wave count. Fly from Earth orbit past the outer planets to the TRAPPIST-1 worlds, multiply your salvage in the reactor, and build a new arsenal every flight.
+A landscape space shooter: dodge, auto-fire and make every wave count. Leave Earth orbit and fight your way out through the solar system, one sector at a time. Multiply your salvage in the reactor and build a new arsenal every flight.
 
 **Website:** [riftbarrage.cristiangirlea.ro](https://riftbarrage.cristiangirlea.ro)
 
-![Sector boss over Saturn](site/screenshots/03-boss-saturn.png)
+![A sector boss](site/screenshots/03-boss-saturn.png)
 
 ## Download (preview 0.1.0)
 
@@ -23,18 +23,17 @@ This is an early preview. Balance will change, and later previews may not keep y
 
 ## What is in the preview
 
-- **Five ships:** Vanguard, Striker, Specter, Bulwark and Solaris, each with its own shots, sound and skill.
+- **A growing fleet:** launch in the Vanguard; new ships join as you push further out, each with its own guns, sound and skill.
 - **The salvage reactor:** aim and release your cores through ×2/×3 gates, catapults and counter locks, then spend the points on upgrades for the run.
-- **The route:** a 200-chapter route through 20 regions, with Normal, Hard and Nightmare, stars, chapter missions and Infinite Mode.
+- **The long way out:** every sector takes you further from home, with stars, chapter missions, harder modes and an endless Infinite Mode.
 - **Permanent progress:** gold upgrades, ship levels and mastery, mergeable gear, pilots, engine trails and daily supplies.
 
 ## Screenshots
 
 | | |
 | --- | --- |
-| ![Combat over Europa](site/screenshots/02-combat-europa.png) | ![The salvage reactor](site/screenshots/04-drop.png) |
-| ![Draft](site/screenshots/08-draft.png) | ![Hangar](site/screenshots/01-hangar.png) |
-| ![Fleet](site/screenshots/05-fleet.png) | ![Region map](site/screenshots/07-map.png) |
+| ![Dodge and auto-fire](site/screenshots/02-combat-europa.png) | ![The salvage reactor](site/screenshots/04-drop.png) |
+| ![Build your firepower](site/screenshots/08-draft.png) | ![The hangar](site/screenshots/01-hangar.png) |
 
 ## Privacy
 

@@ -19,3 +19,7 @@ Builds are attached to GitHub Releases with stable file names, so the site's lin
 - `RiftBarrage-android.apk`
 - `RiftBarrage-windows-x64.zip`
 - `SHA256SUMS.txt`
+
+## No GitHub Actions
+
+This repository has no workflows and must not get any. Cloudflare Pages deploys `site/` on its own build quota, and releases are uploaded with `gh release`. That way nothing here spends GitHub Actions minutes. A self-hosted runner must never serve a public repository: its pull requests can come from anyone.
