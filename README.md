@@ -6,7 +6,7 @@ A landscape space shooter: dodge, auto-fire and make every wave count. Leave Ear
 
 ![Rift Barrage: read the warning, find the gap](site/screenshots/v2-loop.webp)
 
-## Download (preview 0.2.1)
+## Download (preview 0.2.2)
 
 | Platform | File | Requirements |
 | --- | --- | --- |
@@ -20,6 +20,10 @@ Every release lists SHA-256 checksums in `SHA256SUMS.txt`.
 - **Windows:** unzip and run `RiftBarrage.exe`. SmartScreen may warn about an unrecognized app (choose *More info → Run anyway*).
 
 This is an early preview. Balance will change, and later previews may not keep your progress.
+
+## New in 0.2.2
+
+- **Smoother steering:** the ship races toward your finger and brakes where you point; keyboard and gamepad accelerate and brake the same way.
 
 ## New in 0.2.1
 
