@@ -6,7 +6,7 @@ A landscape space shooter: dodge, auto-fire and make every wave count. Leave Ear
 
 ![A sector boss](site/screenshots/03-boss-saturn.png)
 
-## Download (preview 0.1.0)
+## Download (preview 0.2.0)
 
 | Platform | File | Requirements |
 | --- | --- | --- |
