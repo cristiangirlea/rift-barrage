@@ -3,81 +3,192 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rift Barrage</title>
-  <meta name="description" content="Rift Barrage: a landscape space shooter. Dodge, auto-fire, multiply your salvage in the reactor and build a new arsenal every flight. Preview builds for Android and Windows.">
-  <meta property="og:title" content="Rift Barrage">
-  <meta property="og:description" content="A landscape space shooter: leave Earth orbit and fight your way out through the solar system. Preview builds for Android and Windows.">
-  <meta property="og:image" content="https://riftbarrage.cristiangirlea.ro/screenshots/03-boss-saturn.png">
+  <title>Rift Barrage: a landscape space shooter for Android and Windows</title>
+  <meta name="description" content="Dodge the barrage, break the bosses and fight your way out through the solar system. 200 chapters, 10 ships, 20+ enemy types. Free to play on Android and Windows.">
+  <link rel="canonical" href="https://riftbarrage.cristiangirlea.ro/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://riftbarrage.cristiangirlea.ro/">
+  <meta property="og:title" content="Rift Barrage: fight your way out through the solar system">
+  <meta property="og:description" content="A landscape space shooter. Dodge, auto-fire, break the bosses. 200 chapters, 10 ships. Free preview for Android and Windows.">
+  <meta property="og:image" content="https://riftbarrage.cristiangirlea.ro/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#08101c">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="alternate" type="application/atom+xml" title="Rift Barrage releases" href="https://github.com/cristiangirlea/rift-barrage/releases.atom">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Rift Barrage",
+    "url": "https://riftbarrage.cristiangirlea.ro/",
+    "image": "https://riftbarrage.cristiangirlea.ro/social-card.png",
+    "description": "A landscape space shooter: dodge, auto-fire and fight your way out through the solar system.",
+    "genre": ["Shooter", "Arcade", "Action"],
+    "gamePlatform": ["Android", "Windows"],
+    "operatingSystem": "Android 7.1+, Windows 10/11",
+    "applicationCategory": "Game",
+    "author": { "@type": "Person", "name": "Cristian Gîrlea", "url": "https://cristiangirlea.ro" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+  }
+  </script>
 </head>
 <body>
-  <header class="hero">
-    <img class="hero-art" src="screenshots/hero-saturn.png" alt="Rift Barrage combat: the Vanguard faces a sector boss">
+  <nav class="topbar">
+    <a class="brand" href="#top"><img src="favicon-32.png" alt="" width="28" height="28">Rift Barrage</a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#screens">Screenshots</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn small primary" href="#download">Play free</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-inner">
     <div class="hero-text">
-      <p class="kicker">Preview 0.2.0 · Android · Windows</p>
-      <h1>RIFT BARRAGE</h1>
-      <p class="lead">Dodge. Auto-fire. Make every wave count.<br>Leave Earth orbit and fight your way out through the solar system, one sector at a time. Multiply your salvage in the reactor and build a new arsenal every flight.</p>
-      <div class="downloads">
-        <a class="btn primary" href="https://github.com/cristiangirlea/rift-barrage/releases/latest/download/RiftBarrage-android.apk">Download for Android</a>
-        <a class="btn" href="https://github.com/cristiangirlea/rift-barrage/releases/latest/download/RiftBarrage-windows-x64.zip">Download for Windows</a>
+      <p class="kicker">Free preview 0.2.0 · Android · Windows</p>
+      <h1>RIFT<br>BARRAGE</h1>
+      <p class="lead">Dodge the barrage. Break the bosses. <strong>Fight your way out through the solar system.</strong></p>
+      <p class="sub">A fast landscape shooter you fly with one thumb. Your guns fire on their own; your job is to read the attack, find the gap and survive long enough to turn the fight.</p>
+      <div class="downloads" id="download">
+        <a class="btn primary big" href="https://github.com/cristiangirlea/rift-barrage/releases/latest/download/RiftBarrage-android.apk">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9h10v8a1 1 0 0 1-1 1h-1v3h-2v-3h-2v3H9v-3H8a1 1 0 0 1-1-1V9Zm-2 0h1.5v6H5V9Zm12.5 0H19v6h-1.5V9ZM8.2 4.6 7.1 3.1l.8-.6 1.2 1.6A6.5 6.5 0 0 1 12 3.5c1 0 2 .2 2.9.6l1.2-1.6.8.6-1.1 1.5A5 5 0 0 1 17 8H7a5 5 0 0 1 1.2-3.4ZM10 6.2a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Zm4 0a.6.6 0 1 0 0-1.2.6.6 0 0 0 0 1.2Z"/></svg>
+          <span>Download for Android<small>APK · 73 MB</small></span></a>
+        <a class="btn big" href="https://github.com/cristiangirlea/rift-barrage/releases/latest/download/RiftBarrage-windows-x64.zip">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3V5.5Zm8.5-1.2L21 3v8.5h-9.5V4.3ZM3 12.5h7.5v7.1L3 18.5v-6Zm8.5 0H21V21l-9.5-1.3v-7.2Z"/></svg>
+          <span>Download for Windows<small>ZIP · 75 MB</small></span></a>
       </div>
-      <p class="fine">Android 7.1+ (64-bit ARM) · Windows 10/11 64-bit · Linux coming later ·
-        <a href="https://github.com/cristiangirlea/rift-barrage/releases">all releases &amp; checksums</a></p>
+      <ul class="trust">
+        <li>Free to play</li><li>One-thumb controls</li><li>Android &amp; Windows</li>
+      </ul>
+    </div>
+    <figure class="clip">
+      <img src="screenshots/v2-loop.webp" alt="Gameplay: a boss telegraphs an attack band and the ship slides into the safe lane" fetchpriority="high">
+      <figcaption>Real gameplay: read the warning, find the gap.</figcaption>
+    </figure>
     </div>
   </header>
 
+  <section class="stats" aria-label="The game in numbers">
+    <div><strong>200</strong><span>chapters</span></div>
+    <div><strong>20</strong><span>sectors to cross</span></div>
+    <div><strong>10</strong><span>ships to fly</span></div>
+    <div><strong>20+</strong><span>enemy types</span></div>
+    <div><strong>3</strong><span>difficulties + endless mode</span></div>
+  </section>
+
   <main>
-    <section class="features">
-      <article><h2>A growing fleet</h2><p>Launch in the Vanguard with its Shield Nova. New ships join as you push further out, each with its own guns, sound and skill.</p></article>
-      <article><h2>The salvage reactor</h2><p>Every few waves your cores pour through a board of ×2 and ×3 gates, catapults and counter locks. Aim the spout, release, and spend the multiplied points on upgrades for the run.</p></article>
-      <article><h2>The long way out</h2><p>Every sector takes you further from home, with new enemies, bosses and skies. Earn stars, clear chapter missions, try the harder modes, or test yourself in the endless Infinite Mode.</p></article>
-      <article><h2>Permanent progress</h2><p>Gold upgrades, ship levels and mastery, gear you merge into higher tiers, pilots, engine trails and daily supplies that wait for you between sessions.</p></article>
+    <section id="features" class="rows">
+      <article class="row">
+        <img src="screenshots/v2-combat.webp" alt="A wave of enemy ships in formation, with an elite marked by a halo" loading="lazy">
+        <div>
+          <p class="eyebrow">Combat</p>
+          <h2>Easy to pick up. Hard to master.</h2>
+          <p>Slide up and down; everything else is reading the screen. The further you fly, the more the waves mix it up: formations, enemy types that rotate from wave to wave, and rare elites whose traits change how you fight them. Your ship skill, timed well, turns a bad moment around.</p>
+        </div>
+      </article>
+      <article class="row flip">
+        <img src="screenshots/v2-boss.webp" alt="A sector boss telegraphing an attack band across the screen" loading="lazy">
+        <div>
+          <p class="eyebrow">Bosses</p>
+          <h2>Bosses that fight back</h2>
+          <p>Every chapter ends in a boss fight. Beyond the inner planets, bosses hold their distance and attack with telegraphed volleys, rings, broadsides and slams, then enrage at half hull. Read the warning, find the safe lane, keep firing.</p>
+        </div>
+      </article>
+      <article class="row">
+        <img src="screenshots/04-drop.png" alt="The salvage reactor board with multiplier gates" loading="lazy">
+        <div>
+          <p class="eyebrow">The salvage reactor</p>
+          <h2>Turn salvage into firepower</h2>
+          <p>Every few waves your cores pour through a reactor of ×2 and ×3 gates, catapults and locks. Aim the spout, release at the right moment, and spend the multiplied haul on upgrades that reshape your run.</p>
+        </div>
+      </article>
+      <article class="row flip">
+        <img src="screenshots/v2-hangar.webp" alt="The hangar with the fleet and upgrades" loading="lazy">
+        <div>
+          <p class="eyebrow">Progress</p>
+          <h2>A fleet that grows with you</h2>
+          <p>Start in the Vanguard and earn new ships as you push further from home, each with its own weapon, sound and skill. Level them, merge gear, recruit pilots, chase three stars and chapter missions, then test yourself on Hard, Nightmare or the endless Infinite Mode.</p>
+        </div>
+      </article>
     </section>
 
-    <section>
+    <section class="new">
+      <h2 class="section-title">New in 0.2.0</h2>
+      <ul class="cards">
+        <li><strong>Bosses fight back</strong>Telegraphed attacks and an enraged second phase.</li>
+        <li><strong>More enemies</strong>New types with their own tactics, formations and elites.</li>
+        <li><strong>Livelier ships</strong>Banking, recoil and hit reactions: the fleet feels alive.</li>
+        <li><strong>No ship left behind</strong>Deeper in, ships that slip past swing back around.</li>
+        <li><strong>A bigger fleet</strong>More ships join as you push further out.</li>
+        <li><strong>A new look</strong>New icon and a short launch intro.</li>
+      </ul>
+      <p class="fine">Full notes on the <a href="https://github.com/cristiangirlea/rift-barrage/releases">releases page</a>.</p>
+    </section>
+
+    <section id="screens">
       <h2 class="section-title">Screenshots</h2>
       <div class="gallery">
         <figure><img src="screenshots/02-combat-europa.png" alt="Dodging enemy fire near Jupiter" loading="lazy"><figcaption>Dodge and auto-fire</figcaption></figure>
-        <figure><img src="screenshots/04-drop.png" alt="The salvage reactor drop board" loading="lazy"><figcaption>The salvage reactor</figcaption></figure>
         <figure><img src="screenshots/08-draft.png" alt="Choosing an upgrade in the draft" loading="lazy"><figcaption>Build your firepower</figcaption></figure>
-        <figure><img src="screenshots/01-hangar.png" alt="The hangar before the first flight" loading="lazy"><figcaption>The hangar</figcaption></figure>
         <figure><img src="screenshots/06-gear.png" alt="Gear and supply crates" loading="lazy"><figcaption>Gear and supply crates</figcaption></figure>
         <figure><img src="screenshots/03-boss-saturn.png" alt="A sector boss among the outer planets" loading="lazy"><figcaption>Sector bosses</figcaption></figure>
       </div>
     </section>
 
     <section class="install">
-      <h2 class="section-title">Installing the preview</h2>
+      <h2 class="section-title">Install in a minute</h2>
       <div class="columns">
         <div>
           <h3>Android</h3>
           <ol>
             <li>Download <code>RiftBarrage-android.apk</code> on your phone.</li>
             <li>Open it and allow installing from your browser when Android asks.</li>
-            <li>Play in landscape. Your progress stays on the device.</li>
+            <li>Play in landscape. Updates install over the previous preview.</li>
           </ol>
         </div>
         <div>
           <h3>Windows</h3>
           <ol>
             <li>Download and unzip <code>RiftBarrage-windows-x64.zip</code>.</li>
-            <li>Run <code>RiftBarrage.exe</code>. Windows SmartScreen may warn about an unrecognized app; choose <em>More info → Run anyway</em>.</li>
+            <li>Run <code>RiftBarrage.exe</code>. SmartScreen may warn about an unrecognized app; choose <em>More info → Run anyway</em>.</li>
             <li>Mouse drag, W/S or arrows to fly, Space for the skill, Esc to pause. Gamepads work too.</li>
           </ol>
         </div>
       </div>
-      <p class="fine">Check your download against <code>SHA256SUMS.txt</code> on the <a href="https://github.com/cristiangirlea/rift-barrage/releases">releases page</a>. This is an early preview: balance will change, and later previews may not keep your progress.</p>
+      <p class="fine">Requirements: Android 7.1+ on 64-bit ARM, or Windows 10/11 64-bit. Check downloads against <code>SHA256SUMS.txt</code> on the <a href="https://github.com/cristiangirlea/rift-barrage/releases">releases page</a>.</p>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2 class="section-title">Questions</h2>
+      <details><summary>Is it free?</summary><p>Yes, Rift Barrage is free to play. Later versions will add optional extras, such as watching a short ad for a revive or an extra supply box, and optional purchases. They are always a choice: finishing the campaign never requires them.</p></details>
+      <details><summary>What data do you collect?</summary><p>The current preview collects nothing: no analytics, no crash reporting, no ads. When a version adds ads or online play, the <a href="privacy/">privacy page</a> will say exactly what changes before it ships, and you will be asked for consent where the law requires it.</p></details>
+      <details><summary>Will my progress carry over to new versions?</summary><p>Previews update in place and usually keep your progress. While the game is in preview, balance can change, and a later preview may occasionally need a fresh start.</p></details>
+      <details><summary>Is there an iPhone version?</summary><p>Not yet. Android and Windows come first; an iPhone version is planned.</p></details>
+      <details><summary>Why does Windows warn me when I run it?</summary><p>The preview is not code-signed yet, so SmartScreen does not recognise it. Choose <em>More info → Run anyway</em>, or compare the file against the published SHA-256 checksum first.</p></details>
+      <details><summary>How do I hear about new versions?</summary><p>Follow the <a href="https://github.com/cristiangirlea/rift-barrage/releases.atom">releases feed</a> in any RSS reader, or watch the <a href="https://github.com/cristiangirlea/rift-barrage">GitHub repository</a> for releases.</p></details>
+    </section>
+
+    <section class="final">
+      <h2>Ready for launch?</h2>
+      <p>The solar system will not clear itself.</p>
+      <div class="downloads center">
+        <a class="btn primary big" href="https://github.com/cristiangirlea/rift-barrage/releases/latest/download/RiftBarrage-android.apk"><span>Download for Android<small>APK · free</small></span></a>
+        <a class="btn big" href="https://github.com/cristiangirlea/rift-barrage/releases/latest/download/RiftBarrage-windows-x64.zip"><span>Download for Windows<small>ZIP · free</small></span></a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>No account, no ads, no purchases and no analytics in this preview. <a href="privacy/">Privacy</a> ·
+    <p><a href="privacy/">Privacy</a> ·
+      <a href="https://github.com/cristiangirlea/rift-barrage/releases.atom">Releases feed</a> ·
       <a href="https://github.com/cristiangirlea/rift-barrage">GitHub</a> · <a href="https://cristiangirlea.ro">cristiangirlea.ro</a></p>
-    <p class="fine">© 2026 Cristian Gîrlea. All rights reserved.</p>
+    <p class="fine">© 2026 Cristian Gîrlea. All rights reserved. Made with Unity.</p>
   </footer>
 </body>
 </html>
