@@ -4,9 +4,9 @@ A landscape space shooter: dodge, auto-fire and make every wave count. Leave Ear
 
 **Website:** [riftbarrage.cristiangirlea.ro](https://riftbarrage.cristiangirlea.ro)
 
-![Rift Barrage: read the warning, find the gap](site/screenshots/v2-loop.webp)
+![Rift Barrage: detailed fleet above Earth](site/screenshots/v3-combat.png)
 
-## Download (preview 0.2.2)
+## Download (preview 0.3.0)
 
 | Platform | File | Requirements |
 | --- | --- | --- |
@@ -20,6 +20,15 @@ Every release lists SHA-256 checksums in `SHA256SUMS.txt`.
 - **Windows:** unzip and run `RiftBarrage.exe`. SmartScreen may warn about an unrecognized app (choose *More info → Run anyway*).
 
 This is an early preview. Balance will change, and later previews may not keep your progress.
+
+## New in 0.3.0
+
+- **Detailed 3D fleet and curved planets:** the painted finish and familiar 2.5D controls remain.
+- **Ship research:** 19 first-build hulls, bounded modules and class crews replace the old upgrade, gear and pilot progression.
+- **Class handling:** light, medium and heavy ships accelerate and brake differently.
+- **100 available chapters:** later route content remains in development.
+
+Earlier preview saves are archived locally and converted to the research system. Old upgrades are not retained in their previous form. Physical-phone performance verification for the new models is still pending.
 
 ## New in 0.2.2
 
@@ -43,14 +52,14 @@ This is an early preview. Balance will change, and later previews may not keep y
 - **A growing fleet:** launch in the Vanguard; new ships join as you push further out, each with its own guns, sound and skill.
 - **The salvage reactor:** aim and release your cores through ×2/×3 gates, catapults and counter locks, then spend the points on upgrades for the run.
 - **The long way out:** every sector takes you further from home, with stars, chapter missions, harder modes and an endless Infinite Mode.
-- **Permanent progress:** gold upgrades, ship levels and mastery, mergeable gear, pilots, engine trails and daily supplies.
+- **Permanent progress:** ship research, fitted modules, class crews, region chests and daily supplies.
 
 ## Screenshots
 
 | | |
 | --- | --- |
-| ![Dodge and auto-fire](site/screenshots/02-combat-europa.png) | ![The salvage reactor](site/screenshots/04-drop.png) |
-| ![Build your firepower](site/screenshots/08-draft.png) | ![The hangar](site/screenshots/01-hangar.png) |
+| ![Dodge and auto-fire](site/screenshots/v3-combat.png) | ![The salvage reactor](site/screenshots/04-drop.png) |
+| ![Research modules](site/screenshots/v3-modules.png) | ![A sector boss](site/screenshots/v3-boss.png) |
 
 ## Privacy
 
