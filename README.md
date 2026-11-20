@@ -6,7 +6,7 @@ A landscape space shooter: dodge, auto-fire and make every wave count. Leave Ear
 
 ![Rift Barrage: detailed fleet above Earth](site/screenshots/v3-combat.png)
 
-## Download (preview 0.3.0)
+## Download (preview 0.4.0)
 
 | Platform | File | Requirements |
 | --- | --- | --- |
@@ -20,6 +20,13 @@ Every release lists SHA-256 checksums in `SHA256SUMS.txt`.
 - **Windows:** unzip and run `RiftBarrage.exe`. SmartScreen may warn about an unrecognized app (choose *More info → Run anyway*).
 
 This is an early preview. Balance will change, and later previews may not keep your progress.
+
+## New in 0.4.0
+
+- **Higher-tier ships:** fifteen new tier VI-X ships to research, 34 in all, each evolving its family with its own weapons.
+- **Redesigned bosses:** region bosses return with new weapons and attack patterns.
+- **Depth in motion:** ships bank and show depth as they steer; drag your ship in the hangar to inspect it.
+- **Fixed:** a 0.3.0 first-flight upgrade that reduced 300 gold to 200 is repaired once on launch.
 
 ## New in 0.3.0
 
